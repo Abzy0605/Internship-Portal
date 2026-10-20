@@ -1,0 +1,57 @@
+# Git and local project/build metadata
+.git
+.git/**
+**/.git
+**/.git/**
+.settings/
+.classpath
+.project
+build/
+**/build/
+bin/
+**/bin/
+target/
+**/target/
+*.class
+
+# Local environment, credentials, certificates, and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+secrets/
+**/secrets/
+credentials/
+**/credentials/
+*.local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local data, uploads, database dumps, and backups
+database/
+Microsoft/
+uploads/
+**/uploads/
+uploaded-documents/
+**/uploaded-documents/
+student-documents/
+**/student-documents/
+EEC_Internship_Uploads/
+**/EEC_Internship_Uploads/
+*.dump
+*.dump.*
+*.sql.gz
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*~
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
