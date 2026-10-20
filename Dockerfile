@@ -16,7 +16,7 @@ FROM tomcat:10.1-jdk21-temurin
 
 RUN sed -i 's/port="8080"/port="${http.port}"/' "$CATALINA_HOME/conf/server.xml"
 
-COPY --from=build /tmp/Internship_Portal.war "$CATALINA_HOME/webapps/Internship_Portal.war"
+COPY --from=build /tmp/Internship_Portal.war "$CATALINA_HOME/webapps/ROOT.war"
 
 EXPOSE 8080
 
