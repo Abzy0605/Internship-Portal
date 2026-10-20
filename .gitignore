@@ -1,0 +1,52 @@
+# Eclipse workspace and local server state (keep project-level Eclipse files)
+.metadata/
+.recommenders/
+.servers/
+
+# Generated build output
+/build/
+/bin/
+/target/
+/out/
+*.class
+
+# Local environment and secret material
+.env
+.env.*
+!.env.example
+*.local.properties
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Runtime uploads and user documents
+**/uploads/
+**/uploaded-documents/
+**/student-documents/
+**/EEC_Internship_Uploads/
+
+# Local database dumps and backups; keep reviewed SQL scripts
+database/dumps/
+database/local/
+*.dump
+*.dump.*
+*.sql.gz
+
+# Logs, temporary files, backups, and editor/OS clutter
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unrelated PowerShell cache found in this project
+/Microsoft/
